@@ -23,4 +23,6 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: batiwo/foundryvtt-runner:latest
+          tags: |
+            batiwo/foundryvtt-runner:latest
+            batiwo/foundryvtt-runner:node-24-alpine
